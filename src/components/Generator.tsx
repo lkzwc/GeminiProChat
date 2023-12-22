@@ -245,6 +245,7 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
+          <input type="file" gen-slate-btn />
           <button onClick={handleButtonClick} gen-slate-btn>
             Send
           </button>
